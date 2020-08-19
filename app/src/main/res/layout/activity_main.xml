@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6FF00"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/tbr1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3pt"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/ButtonColor"
+            android:onClick="btnClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/ButtonColor"
+            android:onClick="btnClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/ButtonColor"
+            android:onClick="btnClicked"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tbr2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3pt"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn21"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/ButtonColor"
+            android:onClick="btnClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn22"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/ButtonColor"
+            android:onClick="btnClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn23"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/ButtonColor"
+            android:onClick="btnClicked"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tbr3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3pt"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn31"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/ButtonColor"
+            android:onClick="btnClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn32"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/ButtonColor"
+            android:onClick="btnClicked"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn33"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/ButtonColor"
+            android:onClick="btnClicked"
+            android:textSize="24sp" />
+    </TableRow>
+
+
+</TableLayout>
